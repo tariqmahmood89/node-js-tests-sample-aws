@@ -6,8 +6,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ec2-user/<app-name>/
-
+    destination: /home/ubuntu/test
 permissions:
   - object: /
     pattern: "**"
